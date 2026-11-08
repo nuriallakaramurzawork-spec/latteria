@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Latteria & Bakery — Alma Villa</title>
+<meta name="description" content="Кофейня-пекарня Latteria & Bakery в ЖК Alma Villa, Ерменсай. Меню на казахском, русском и английском, цены и КБЖУ, заказ в WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&family=Unbounded:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#top">Latteria &amp; Bakery<small data-i18n="logo_sub">ЖК Alma Villa · Ерменсай</small></a>
+    <nav aria-label="Menu">
+      <a href="#menu" data-i18n="nav_menu">Меню</a><a href="#home" data-i18n="nav_home">С собой</a><a href="#reviews" data-i18n="nav_reviews">Отзывы</a><a href="#contacts" data-i18n="nav_contacts">Как добраться</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Тіл / Язык / Language">
+      <button data-lang="kk" lang="kk" aria-pressed="false">Қаз</button>
+      <button data-lang="ru" lang="ru" aria-pressed="true">Рус</button>
+      <button data-lang="en" lang="en" aria-pressed="false">Eng</button>
+    </div>
+    <span class="status" id="status" data-i18n="opens">Открываемся в 08:00</span>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Latteria<br>&amp; Bakery<span data-i18n="hero_sub">Хлеб, кофе и завтраки у самых гор</span></h1>
+      <p class="lead" data-i18n="hero_lead">Пекарня-кофейня в ЖК Alma Villa.</p>
+      <div class="cta">
+        <a class="btn btn-ink" href="#menu" data-i18n="btn_menu">Смотреть меню</a>
+        <a class="btn btn-wa" data-wa="wa_hello" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.4-.3Z"/></svg>
+          <span data-i18n="btn_wa">Написать в WhatsApp</span></a>
+      </div>
+    </div>
+    <ul class="facts">
+      <li><b data-i18n="f1b">4.8 в 2ГИС</b><span data-i18n="f1s"></span></li>
+      <li><b data-i18n="f2b"></b><span data-i18n="f2s"></span></li>
+      <li><b data-i18n="f3b"></b><span data-i18n="f3s"></span></li>
+      <li><b data-i18n="f4b"></b><span data-i18n="f4s"></span></li>
+    </ul>
+  </div>
+  <svg class="mountains" viewBox="0 0 1440 220" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" aria-hidden="true">
+    <path d="M0 210 L150 120 L230 160 L380 50 L470 120 L560 80 L700 18 L820 110 L900 70 L1040 150 L1150 60 L1280 140 L1360 105 L1440 150"/>
+    <path d="M345 75 L380 50 L410 72 L392 68 L380 80 L366 70 Z" fill="currentColor"/>
+    <path d="M655 50 L700 18 L742 52 L722 46 L708 60 L690 46 Z" fill="currentColor"/>
+    <path d="M1118 84 L1150 60 L1180 82 L1164 78 L1152 88 L1138 79 Z" fill="currentColor"/>
+    <path d="M0 214 H1440" />
+    <path d="M60 210 C120 190 170 200 230 186 M520 200 C600 180 680 196 760 178 M1060 204 C1140 186 1210 198 1290 182" stroke-width="1.5"/>
+  </svg>
+</section>
+
+<div class="promo">
+  <div class="wrap">
+    <strong data-i18n="promo_t">−10% на кофе</strong>
+    <p data-i18n-html="promo_p"></p>
+  </div>
+</div>
+
+<section id="why">
+  <div class="wrap">
+    <h2 data-i18n="why_h"></h2>
+    <p class="lead" data-i18n="why_lead"></p>
+    <div class="why-grid">
+      <div>
+        <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 34c0-12 9-20 21-20s21 8 21 20v4H6z"/><path d="M17 22l4 10M27 19v12M37 22l-4 10"/></svg>
+        <h3 data-i18n="w1h"></h3><p data-i18n="w1p"></p>
+      </div>
+      <div>
+        <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"><path d="M3 44l14-20 8 10 9-16 17 26z"/><path d="M30 25l4-7 4 6"/></svg>
+        <h3 data-i18n="w2h"></h3><p data-i18n="w2p"></p>
+      </div>
+      <div>
+        <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="16" cy="18" r="4"/><circle cx="27" cy="13" r="4"/><circle cx="38" cy="18" r="4"/><circle cx="12" cy="29" r="3.5"/><circle cx="42" cy="29" r="3.5"/><path d="M27 26c-8 0-13 9-13 13 0 4 4 5 7 4 3-1 9-1 12 0 3 1 7 0 7-4 0-4-5-13-13-13z"/></svg>
+        <h3 data-i18n="w3h"></h3><p data-i18n="w3p"></p>
+      </div>
+      <div>
+        <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="10" y="6" width="34" height="42" rx="4"/><path d="M17 17h20M17 25h20M17 33h12"/></svg>
+        <h3 data-i18n="w4h"></h3><p data-i18n="w4p"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="menu">
+  <div class="wrap">
+    <div class="menu-head">
+      <div>
+        <h2 data-i18n="menu_h">Меню</h2>
+        <p class="lead" data-i18n="menu_lead"></p>
+      </div>
+      <button class="chip soft" id="kbjuToggle" aria-pressed="true"></button>
+    </div>
+    <div class="tools">
+      <input class="search" id="q" type="search" data-i18n-ph="search_ph" data-i18n-aria="search_aria">
+      <div class="chips" id="cats" role="toolbar"></div>
+      <div class="chips" id="goals" role="toolbar">
+        <button class="chip soft" data-goal="light" aria-pressed="false" data-i18n="g_light"></button>
+        <button class="chip soft" data-goal="protein" aria-pressed="false" data-i18n="g_protein"></button>
+        <button class="chip soft" data-goal="budget" aria-pressed="false" data-i18n="g_budget"></button>
+      </div>
+    </div>
+    <div class="menu-body" id="menuBody"></div>
+  </div>
+</section>
+
+<section id="home">
+  <div class="wrap home-grid">
+    <div>
+      <h2 data-i18n="home_h"></h2>
+      <p class="lead" data-i18n="home_lead"></p>
+      <ul class="home-list">
+        <li data-i18n="h1"></li><li data-i18n="h2"></li><li data-i18n="h3"></li><li data-i18n="h4"></li>
+      </ul>
+      <a class="btn btn-wa" data-wa="wa_fresh" href="#" target="_blank" rel="noopener"><span data-i18n="btn_fresh"></span></a>
+    </div>
+    <svg class="bread" viewBox="0 0 400 260" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M40 200c-10-60 30-120 110-130 90-12 190 20 210 90 8 30-10 60-40 62H70c-16 0-28-8-30-22z"/>
+      <path d="M120 95c10 20 12 50 4 80M180 82c12 24 14 60 4 98M245 88c12 26 12 62 0 96M300 110c8 20 8 44 0 66"/>
+      <path d="M20 232h360" />
+      <path d="M150 232c4-10 14-16 26-16" stroke-width="2"/>
+    </svg>
+  </div>
+</section>
+
+<section id="gallery" style="padding-top:0">
+  <div class="wrap">
+    <h2 data-i18n="gal_h"></h2>
+    <p class="lead" data-i18n="gal_lead"></p>
+    <div class="reels" id="reels"></div>
+    <div class="cta" style="margin-top:24px">
+      <a class="btn btn-ghost" href="https://www.instagram.com/latteria.bakery/" target="_blank" rel="noopener" data-i18n="gal_btn"></a>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" style="background:var(--wash)">
+  <div class="wrap">
+    <h2 data-i18n="rev_h"></h2>
+    <div class="rating">
+      <span class="num">4.8</span>
+      <div><div class="stars" data-i18n-aria="stars_aria">★★★★★</div><span class="lead" data-i18n="rev_count"></span></div>
+    </div>
+    <p class="rev-note" id="revNote" data-i18n="rev_note"></p>
+    <div class="rev-grid" id="revs"></div>
+    <div class="cta" style="margin-top:10px">
+      <a class="btn btn-ink" href="https://2gis.kz/almaty/firm/70000001113232763/tab/reviews" target="_blank" rel="noopener" data-i18n="rev_all"></a>
+      <a class="btn btn-ghost" href="https://2gis.kz/almaty/firm/70000001113232763/tab/reviews" target="_blank" rel="noopener" data-i18n="rev_leave"></a>
+    </div>
+  </div>
+</section>
+
+<section id="contacts">
+  <div class="wrap">
+    <h2 data-i18n="c_h"></h2>
+    <div class="c-grid">
+      <ul class="c-list">
+        <li><small data-i18n="c_addr"></small><span data-i18n-html="c_addr_v"></span></li>
+        <li><small data-i18n="c_hours"></small><span data-i18n="opens"></span></li>
+        <li><small data-i18n="c_phone"></small><a href="tel:+77009931349">+7 700 993 13 49</a></li>
+        <li><small>Instagram</small><a href="https://www.instagram.com/latteria.bakery/" target="_blank" rel="noopener">@latteria.bakery</a></li>
+        <li><small data-i18n="c_pay"></small><span data-i18n="c_pay_v"></span></li>
+        <li class="cta">
+          <a class="btn btn-wa" data-wa="wa_hello" href="#" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn-ghost" href="https://2gis.kz/almaty/directions/points/%7C76.923406%2C43.179215%3B70000001113232763" target="_blank" rel="noopener" data-i18n="c_route"></a>
+        </li>
+      </ul>
+      <iframe class="map" data-i18n-title="map_title" loading="lazy"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=76.9164%2C43.1752%2C76.9304%2C43.1832&layer=mapnik&marker=43.179215%2C76.923406"></iframe>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap" data-i18n="foot"></div>
+</footer>
+
+<div class="bar">
+  <div class="wrap">
+    <a href="#menu" data-i18n="nav_menu">Меню</a>
+    <a href="https://2gis.kz/almaty/directions/points/%7C76.923406%2C43.179215%3B70000001113232763" target="_blank" rel="noopener" data-i18n="bar_route"></a>
+    <button class="cart-btn" id="cartOpen"><span data-i18n="bar_order"></span> <span class="badge" id="cartCount">0</span></button>
+  </div>
+</div>
+
+<div id="drawerRoot">
+  <div class="drawer-bg" id="drawerBg"></div>
+  <aside class="drawer" role="dialog" aria-modal="true" aria-labelledby="dTitle">
+    <div class="d-head"><h3 id="dTitle" data-i18n="cart_h"></h3><button id="cartClose" data-i18n-aria="close" style="font-size:26px;color:var(--ink)">×</button></div>
+    <div class="d-body" id="cartBody"></div>
+    <div class="d-foot">
+      <div class="seg" role="radiogroup">
+        <label><input type="radio" name="mode" value="take" checked><span data-i18n="m_take"></span></label>
+        <label><input type="radio" name="mode" value="hall"><span data-i18n="m_hall"></span></label>
+        <label><input type="radio" name="mode" value="time"><span data-i18n="m_time"></span></label>
+      </div>
+      <input type="text" id="when" data-i18n-ph="when_ph">
+      <textarea id="comment" rows="2" data-i18n-ph="comment_ph"></textarea>
+      <div class="total"><span data-i18n="total"></span><span id="total">0 ₸</span></div>
+      <button class="btn btn-wa" id="send" style="justify-content:center" data-i18n="send"></button>
+    </div>
+  </aside>
+</div>
+
+<div class="lightbox" id="lb" role="dialog"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
